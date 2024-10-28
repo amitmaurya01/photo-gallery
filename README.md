@@ -30,7 +30,7 @@ To set up the project locally, follow these steps:
 ## Configure
 To use the Unsplash API, you need an API key:
 1. Get your Unsplash API Key: Sign up at Unsplash Developers and create an app to obtain your API key.
-2. Add the API Key: Update the JavaScript file (script.js) and replace 'YOUR_UNSPLASH_API_KEY' with your actual API key.
+2. Add the API Key: Update the JavaScript file (index.js) and replace 'YOUR_UNSPLASH_API_KEY' with your actual API key.
 
 
 ## Contributing
