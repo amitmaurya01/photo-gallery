@@ -16,7 +16,7 @@ async function fetchImage() {
         btnEl.style.display = "none";
         const loading = `<img src="spinner.svg" />`;
         galleryEl.innerHTML = loading
-        await fetch(`https://api.unsplash.com/photos?per_page=${inputValue}&page=${Math.round(Math.random()*1000)}&client_id=iJPdEO4vzjcz3S_t0ImsOkd2GoFHniL1_Rz2lmSjzJY`).then(
+        await fetch(`https://api.unsplash.com/photos?per_page=${inputValue}&page=${Math.round(Math.random()*1000)}&client_id=YOUR_UNSPLASH_API_KEY`).then(
             (res) =>
                 res.json().then((data) => {
                     //console.log(data);
